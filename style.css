@@ -1,0 +1,51 @@
+body {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  border-bottom: 1px solid black;
+  margin-right: 35%;
+  margin-left: 35%;
+  padding-bottom: 15px;
+}
+
+#board {
+  background-color: lightgrey;
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+  grid-template-rows: 33.33% 33.33% 33.33%;
+}
+
+.square {
+  border: 1px solid black;
+  min-height: 75px;
+  min-width: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.playerX {
+  color: blue;
+}
+
+.playerO {
+  color: red;
+}
+
+
+
+
+
+#restartButton {
+  padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: white;
+  margin-top: 30px;
+}
